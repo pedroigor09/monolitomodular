@@ -4,14 +4,7 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
-/**
- * DTO - Request para criar cliente
- * 
- * APPLICATION LAYER:
- * - DTOs são contratos de entrada/saída dos Use Cases
- * - Usam validações do Bean Validation (framework)
- * - Separam o domínio da apresentação
- */
+
 public record CreateCustomerRequest(
     
     @NotBlank(message = "Nome é obrigatório")

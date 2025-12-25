@@ -7,9 +7,7 @@ import jakarta.validation.constraints.Positive;
 
 import java.math.BigDecimal;
 
-/**
- * DTO - Item do pedido na requisição
- */
+
 public record OrderItemRequest(
     
     @NotBlank(message = "Nome do produto é obrigatório")

@@ -4,14 +4,7 @@ import com.example.monolitomodular.domain.shared.DomainException;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-/**
- * Entity - Cliente
- * 
- * CLEAN ARCHITECTURE:
- * - Entidade do domínio com regras de negócio
- * - Validações de email, nome, etc
- * - Independente de frameworks
- */
+
 public class Customer {
     
     private static final Pattern EMAIL_PATTERN = 
